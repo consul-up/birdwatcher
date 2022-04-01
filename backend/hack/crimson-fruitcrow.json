@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Crimson fruitcrow",
+  "displaytitle": "Crimson fruitcrow",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q431228",
+  "titles": {
+    "canonical": "Crimson_fruitcrow",
+    "normalized": "Crimson fruitcrow",
+    "display": "Crimson fruitcrow"
+  },
+  "pageid": 12456440,
+  "thumbnail": {
+    "source": "/static/crimson-fruitcrow.png",
+    "width": 239,
+    "height": 320
+  },
+  "originalimage": {
+    "source": "/static/crimson-fruitcrow.png",
+    "width": 524,
+    "height": 700
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1054879121",
+  "tid": "42789a20-62b7-11ec-a647-0d62fc90a786",
+  "timestamp": "2021-11-12T15:33:00Z",
+  "description": "Species of bird",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Crimson_fruitcrow",
+      "revisions": "https://en.wikipedia.org/wiki/Crimson_fruitcrow?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Crimson_fruitcrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Crimson_fruitcrow"
+    },
+    "mobile": {
+      "page": "https://en.m.wikipedia.org/wiki/Crimson_fruitcrow",
+      "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Crimson_fruitcrow",
+      "edit": "https://en.m.wikipedia.org/wiki/Crimson_fruitcrow?action=edit",
+      "talk": "https://en.m.wikipedia.org/wiki/Talk:Crimson_fruitcrow"
+    }
+  },
+  "extract": "The crimson fruitcrow is a species of bird in the large family Cotingidae, not a crow. The only member of the genus Haematoderus, it is found in Brazil, French Guiana, Guyana, Suriname, and Venezuela.\nIts natural habitat is subtropical or tropical moist lowland forests. Because of its large range and population density this species is not classified as vulnerable.",
+  "extract_html": "<p>The <b>crimson fruitcrow</b> is a species of bird in the large family Cotingidae, not a crow. The only member of the genus <i><b>Haematoderus</b></i>, it is found in Brazil, French Guiana, Guyana, Suriname, and Venezuela.\nIts natural habitat is subtropical or tropical moist lowland forests. Because of its large range and population density this species is not classified as vulnerable.</p>"
+}

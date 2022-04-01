@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/static/favicon.png"/>
+    <title>Birdwatcher</title>
+
+    <!-- todo: not inline -->
+    <style>
+        body {
+            min-height: 100vh;
+            font-family: 'Rubik', sans-serif;
+            color: #828282;
+            background-image: url('/static/leaves-bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #F8F8F8;
+        }
+
+        .config {
+            height: 552px;
+        }
+
+        .bird {
+            height: 552px;
+        }
+
+        .main-container {
+            height: 600px;
+        }
+
+        @media all and (min-height: 900px) {
+            .outer {
+                margin: 191px auto 0 auto;
+            }
+        }
+
+        @media all and (max-height: 899px) {
+            .outer {
+                margin: 50px auto 0 auto;
+            }
+        }
+
+        .outer {
+            max-width: 676px;
+        }
+
+        .bird-pic .placeholder {
+            background-color: #b6cfcf;
+        }
+
+        .bird-descrip .placeholder {
+            background-color: #b6cfcf;
+        }
+
+        .placeholder-img {
+            background: #F2F4F4;
+            border: 4px solid #F4F4F4;
+            box-sizing: border-box;
+            box-shadow: -3px -3px 6px #FFFFFF, 5px 5px 10px rgba(174, 191, 192, 0.4);
+            border-radius: 180px;
+            width: 201px;
+            height: 201px;
+            margin: 0 auto;
+        }
+
+        .placeholder-img.error {
+            border: 4px solid rgba(175, 98, 98, 0.15);
+        }
+
+        .bird-description {
+            line-height: 19px;
+        }
+
+        .bird-description code {
+            font-size: 1em;
+        }
+
+        .bird-photo {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            padding: 0;
+            box-shadow: -3px -3px 6px #FFFFFF, 5px 5px 10px rgba(174, 191, 192, 0.4);
+        }
+
+        .fade-in-image {
+            animation: fadeIn 1s;
+            -webkit-animation: fadeIn 1s;
+            -moz-animation: fadeIn 1s;
+            -o-animation: fadeIn 1s;
+            -ms-animation: fadeIn 1s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .navbar-brand {
+            color: #AF6262;
+            margin: 0 auto;
+            font-family: 'Rubik Mono One', sans-serif;
+            font-size: 20px;
+        }
+
+        .navbar-brand:hover {
+            color: #AF6262;
+        }
+
+        .navbar-image {
+            margin-right: 8px;
+        }
+
+        .bird-name {
+            font-family: 'Rubik Mono One', sans-serif;
+            color: #AF6262;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 14px;
+        }
+
+        .main-col {
+            background: #F2F4F4;
+            box-shadow: -3px -3px 6px #FFFFFF, 5px 5px 10px rgba(174, 191, 192, 0.4);
+            border-radius: 16px;
+            padding: 40px;
+        }
+
+        .shuffle-bird-button {
+            background: linear-gradient(94.36deg, #F4F5F5 46.46%, #F8F8F8 100%);
+            box-shadow: -3px -3px 6px #FFFFFF, 5px 5px 10px rgba(174, 191, 192, 0.4);
+            border-radius: 98px;
+            border: none;
+            color: #AF6262;
+            font-family: 'Rubik Mono One', sans-serif;
+            font-size: 16px;
+            margin-bottom: 23px;
+            margin-top: 5px;
+        }
+
+        .shuffle-bird-button img {
+            margin-right: 10px;
+        }
+
+        .shuffle-bird-button:hover {
+            box-shadow: -1px -1px 2px #FFFFFF, 2px 2px 4px rgba(174, 191, 192, 0.4);
+            color: #AF6262;
+        }
+
+        .shuffle-bird-button:active {
+            box-shadow: inset -1px -1px 2px #FFFFFF, inset 2px 2px 4px rgba(174, 191, 192, 0.4);
+            color: #AF6262;
+        }
+
+        .shuffle-bird-button:active:focus {
+            box-shadow: inset -1px -1px 2px #FFFFFF, inset 2px 2px 4px rgba(174, 191, 192, 0.4);
+        }
+
+        .shuffle-bird-button:focus {
+            color: #AF6262;
+            background: linear-gradient(94.36deg, #F4F5F5 46.46%, #F8F8F8 100%);
+            border: none;
+            box-shadow: -3px -3px 6px #FFFFFF, 5px 5px 10px rgba(174, 191, 192, 0.4);
+        }
+
+        .shuffle-bird-button:focus-visible {
+            color: #AF6262;
+            background: linear-gradient(94.36deg, #F4F5F5 46.46%, #F8F8F8 100%);
+            border: none;
+            box-shadow: -3px -3px 6px #FFFFFF, 5px 5px 10px rgba(174, 191, 192, 0.4);
+            outline: none;
+        }
+
+        .auto-shuffle {
+            color: #AF6262;
+            font-size: 16px;
+        }
+
+        .shuffle-form {
+            text-align: center;
+        }
+
+        .shuffle-form input.form-check-input {
+            float: none;
+        }
+
+        .auto-shuffle-row {
+            margin-bottom: 31px;
+        }
+
+        .auto-shuffle-input {
+            width: 46px !important;
+            height: 22px;
+            margin-top: 0;
+            border: 1px solid #FFFFFF;
+            box-shadow: -3px -3px 6px #FFFFFF, 5px 5px 10px rgba(174, 191, 192, 0.25), inset -2px -2px 4px rgba(255, 255, 255, 0.7), inset 2px 2px 4px rgba(174, 191, 192, 0.4);
+            border-radius: 12px;
+            margin-right: 11px;
+        }
+
+        .auto-shuffle-input:checked {
+            background-color: #E0EBEB;
+            border-color: #FFFFFF;
+        }
+
+        .auto-shuffle-input:checked:focus {
+            outline: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+        }
+
+        .auto-shuffle-input:focus {
+            outline: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e") !important;
+        }
+
+
+        .error-rate-row {
+            margin-bottom: 20px;
+        }
+
+        .error-rate-row input::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            background: #FAFAFA;
+            box-shadow: -3px -3px 6px rgba(174, 191, 192, 0.2), 3px 3px 6px rgba(174, 191, 192, 0.4);
+            border-radius: 12px;
+        }
+
+        .error-rate-row input::-moz-range-thumb {
+            -webkit-appearance: none;
+            background: #FAFAFA;
+            box-shadow: -3px -3px 6px rgba(174, 191, 192, 0.2), 3px 3px 6px rgba(174, 191, 192, 0.4);
+            border-radius: 12px;
+        }
+
+        .error-rate-row input::-ms-thumb {
+            -webkit-appearance: none;
+            background: #FAFAFA;
+            box-shadow: -3px -3px 6px rgba(174, 191, 192, 0.2), 3px 3px 6px rgba(174, 191, 192, 0.4);
+            border-radius: 12px;
+        }
+
+        .error-rate-row input::-webkit-slider-runnable-track {
+            background: #F4F5F5;
+            box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.7), inset 2px 2px 4px rgba(174, 191, 192, 0.4);
+            border-radius: 12px;
+        }
+
+        .error-rate-row input::-moz-range-track {
+            background: #F4F5F5;
+            box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.7), inset 2px 2px 4px rgba(174, 191, 192, 0.4);
+            border-radius: 12px;
+        }
+
+        .error-rate-row input::-ms-track {
+            background: #F4F5F5;
+            box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.7), inset 2px 2px 4px rgba(174, 191, 192, 0.4);
+            border-radius: 12px;
+        }
+
+        .error-rate-100 {
+            float: right;
+        }
+
+        .response-delay-row label {
+            margin-bottom: 10px;
+        }
+
+        .response-delay-row {
+            margin-bottom: 20px;
+        }
+
+        .response-delay-input {
+            color: #828282;
+            background: linear-gradient(92.04deg, #F4F5F5 48.28%, rgba(248, 248, 248, 0) 102.51%);
+            box-shadow: inset -5px -5px 10px #FFFFFF, inset 5px 5px 10px rgba(174, 191, 192, 0.4);
+            border-radius: 10px;
+            border: #F4F5F5;
+        }
+
+        .response-delay-text {
+            color: #828282;
+            background: #F4F5F5;
+            box-shadow: -2px -2px 4px #FFFFFF, 2px 2px 4px rgba(174, 191, 192, 0.4);
+            border-radius: 0px 10px 10px 0px;
+            border: #F4F5F5;
+        }
+
+        .response-details {
+            margin-left: 4px;
+            margin-bottom: 0;
+        }
+
+        .response-details th {
+            color: #828282;
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: bold;
+        }
+
+        .response-details td {
+            color: #828282;
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .response-details-header {
+            color: #AF6262;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+
+        label {
+            color: #AF6262;
+            font-weight: 500;
+            line-height: 18px;
+        }
+
+        .bg-success {
+            background-color: #88B572 !important;
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+
+        .bg-danger {
+            background-color: #AF6262 !important;
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+
+        .bg-primary {
+            background-color: #E9E0EB !important;
+            color: #828282;
+            font-weight: 500;
+        }
+
+        .bg-warning {
+            background-color: #EFEDB4;
+            color: #828282;
+            font-weight: 500;
+        }
+
+    </style>
+    <script type="text/javascript">
+        const localStorageErrorRateKey = 'errorRate'
+        const localStorageResponseDelayKey = 'responseDelay'
+        document.addEventListener("DOMContentLoaded", function () {
+            // Read request config settings from local storage.
+            const errorRate = window.localStorage.getItem(localStorageErrorRateKey);
+            if (errorRate) {
+                document.getElementById("error-rate").value = errorRate
+            }
+            const responseDelay = window.localStorage.getItem(localStorageResponseDelayKey);
+            if (responseDelay) {
+                document.getElementById("response-delay").value = responseDelay
+            }
+
+            document.getElementById("error-rate").addEventListener('input', function (evt) {
+                window.localStorage.setItem(localStorageErrorRateKey, this.value);
+            });
+            document.getElementById("response-delay").addEventListener('input', function (evt) {
+                window.localStorage.setItem(localStorageResponseDelayKey, this.value);
+            });
+
+            newBird()
+
+            document.querySelector("#shuffle-bird-button").addEventListener("click", newBird)
+            const refreshCheckbox = document.getElementById("refresh-checkbox");
+            refreshCheckbox.addEventListener('change', function (event) {
+                if (refreshCheckbox.checked) {
+                    document.getElementById("shuffle-bird-button").style.display = "none"
+                    document.getElementById("refresh-button").style.display = "block"
+                    document.getElementById("refresh-button").disabled = true
+                    newBird()
+                } else {
+                    document.getElementById("shuffle-bird-button").style.display = "inline-block"
+                    document.getElementById("refresh-button").style.display = "none"
+                }
+            });
+        });
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function newBird(event) {
+            if (event) {
+                event.preventDefault()
+            }
+            showLoading()
+            const controller = new AbortController()
+            const windowQuery = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
+            const canaryParam = "canary" in windowQuery ? `&canary=${windowQuery.canary}` : ""
+            const errorRate = document.getElementById("error-rate").value || 0
+            const delay = document.getElementById("response-delay").value || 0
+            const queryParams = `?error-rate=${errorRate}&delay=${delay}${canaryParam}`
+            fetch(`/shuffle${queryParams}`, {
+                signal: controller.signal,
+                headers: {
+                    // Required so ingress gateway starts a trace (https://github.com/hashicorp/consul/issues/8519).
+                    "x-client-trace-id": "1",
+                }
+            })
+                .then(response => {
+                    response.blob().then(blob => blob.text().then(async function (body) {
+                        try {
+                            // Wait for 200ms just so the loading isn't so jarring.
+                            await sleep(200)
+                            let obj = ""
+                            try {
+                                obj = JSON.parse(body);
+                            } catch (e) {
+                                replaceBirdErrorNoJSON(body, response.status, `Unexpected response: ${body}`)
+                            }
+                            if (response.ok) {
+                                if ("response" in obj) {
+                                    replaceBird(obj, response.status)
+                                } else if ("error" in obj) {
+                                    replaceBirdError(obj, response.status, obj.error)
+                                } else {
+                                    replaceBirdErrorNoJSON(body, response.status, "did not find expected 'response' or 'error' keys")
+                                }
+                            } else {
+                                replaceBirdError(obj, response.status, obj.error)
+                            }
+
+                            // Auto-shuffle.
+                            if (document.getElementById("refresh-checkbox").checked) {
+                                // 2s delay between.
+                                await sleep(2000)
+                                // Need to check if still on auto-shuffle.
+                                if (document.getElementById("refresh-checkbox").checked) {
+                                    await newBird()
+                                }
+                            }
+                        } catch (e) {
+                            replaceBirdErrorNoJSON(body, response.status, e)
+                        }
+                    }))
+                }).catch(e => {
+                replaceBirdErrorNoJSON("n/a", "n/a", e.message)
+            });
+        }
+
+        function capitalize(s) {
+            if (s.length === 0) {
+                return s
+            }
+            return s.charAt(0).toUpperCase() + s.slice(1);
+        }
+
+        function truncate(s) {
+            if (s.length <= 230) {
+                return s
+            }
+            return s.substring(0, 230).trimEnd() + "..."
+        }
+
+        function styleVersion(version) {
+            if (version === "v1") {
+                return `<span class="badge bg-primary">v1</span>`
+            }
+            if (version === "v2") {
+                return `<span class="badge bg-warning">v2</span>`
+            }
+            return version
+        }
+
+        function replaceBird(birdResponse, httpCode) {
+            document.querySelector("#bird-name").innerHTML = birdResponse.response.name
+            document.querySelector("#bird-photo").src = birdResponse.response.imageURL
+            document.querySelector("#bird-description").innerHTML = truncate(birdResponse.response.extract)
+            document.querySelector("#response-status").innerHTML = `<span class="badge bg-success">Success</span>`
+            document.querySelector("#response-duration").innerHTML = birdResponse.metadata.backendDuration
+            document.querySelector("#response-backend-hostname").innerHTML = birdResponse.metadata.backendHostname
+            document.querySelector("#response-backend-version").innerHTML = styleVersion(birdResponse.metadata.backendVersion)
+            document.getElementById("bird-photo").style.display = "block"
+            document.getElementById("shuffle-bird-button").innerHTML = `<img src="/static/shuffle.png" alt="shuffle">SHUFFLE`
+            document.getElementById("placeholder-img").style.display = "none"
+            document.getElementById("placeholder-img").classList.remove("error")
+        }
+
+        function replaceBirdError(response, httpCode, error) {
+            document.querySelector("#bird-name").innerHTML = `Error`
+            document.querySelector("#bird-photo").src = ""
+            document.querySelector("#bird-description").innerHTML = `${capitalize(error)}`
+            document.querySelector("#response-status").innerHTML = `<span class="badge bg-danger">Error</span>`
+            document.querySelector("#response-duration").innerHTML = response.metadata.backendDuration
+            document.querySelector("#response-backend-hostname").innerHTML = response.metadata.backendHostname || "n/a"
+            document.querySelector("#response-backend-version").innerHTML = response.metadata.backendVersion ? styleVersion(response.metadata.backendVersion) : "n/a"
+            document.getElementById("shuffle-bird-button").innerHTML = `<img src="/static/shuffle.png" alt="shuffle">SHUFFLE`
+            document.getElementById("bird-photo").style.display = "none"
+            document.getElementById("placeholder-img").style.display = "block"
+            document.getElementById("placeholder-img").classList.add("error")
+        }
+
+        function replaceBirdErrorNoJSON(response, httpCode, error) {
+            document.querySelector("#bird-name").innerHTML = `Error`
+            document.querySelector("#bird-photo").src = ""
+            document.querySelector("#bird-description").innerHTML = `${capitalize(error)}`
+            document.querySelector("#response-status").innerHTML = `<span class="badge bg-danger">Error</span>`
+            document.querySelector("#response-duration").innerHTML = ""
+            document.querySelector("#response-backend-hostname").innerHTML = ""
+            document.querySelector("#response-backend-version").innerHTML = ""
+            document.getElementById("shuffle-bird-button").innerHTML = `<img src="/static/shuffle.png" alt="shuffle">SHUFFLE`
+            document.getElementById("bird-photo").style.display = "none"
+            document.getElementById("placeholder-img").style.display = "block"
+            document.getElementById("placeholder-img").classList.add("error")
+        }
+
+        function showLoading() {
+            document.getElementById("shuffle-bird-button").innerHTML = `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="margin-right: 10px"></span>SHUFFLE`
+            document.getElementById("placeholder-img").style.display = "block"
+            document.getElementById("bird-photo").style.display = "none"
+            document.getElementById("bird-description").innerHTML = `<span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+`
+            document.getElementById("bird-name").innerHTML = `<span class="placeholder col-4">`
+            document.getElementById("placeholder-img").classList.remove("error")
+        }
+
+        function escapeHtml(unsafe) {
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@400;500;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img src="/static/binos.png" alt=""
+                 class="d-inline-block align-text-top navbar-image">Birdwatcher
+        </a>
+    </div>
+</nav>
+
+<main class="outer">
+    <div class="container main-container">
+        <div class="row main">
+            <div class="col-6 main-col-wrapper">
+                <div class="main-col bird">
+                    <div class="row bird-pic">
+                        <div id="placeholder-img" class="placeholder-img"></div>
+                        <img id="bird-photo" class="img-fluid mx-auto bird-photo fade-in-image"
+                             src="" style="display: none">
+                        <h3 id="bird-name" class="bird-name placeholder-glow"><span class="placeholder col-4"></span>
+                        </h3>
+                    </div>
+                    <div class="row bird-descrip">
+                        <p id="bird-description" class="placeholder-glow bird-description">
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                            <span class="placeholder col-12"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 main-col-wrapper">
+                <div class="main-col config">
+                    <div class="row">
+                        <a id="shuffle-bird-button" href="#" class="btn btn-primary btn-lg shuffle-bird-button"><img
+                                src="/static/shuffle.png" alt="shuffle">SHUFFLE</a>
+                        <a href="#" style="display: none" class="btn btn-primary btn-lg shuffle-bird-button"
+                           id="refresh-button"><span class="spinner-border spinner-border-sm" role="status"
+                                                     aria-hidden="true" style="margin-right: 10px"></span>SHUFFLE</a>
+                    </div>
+                    <div class="row auto-shuffle-row">
+                        <div class="form-check form-switch shuffle-form">
+                            <input class="form-check-input auto-shuffle-input" type="checkbox" role="switch"
+                                   id="refresh-checkbox">
+                            <label class="form-check-label auto-shuffle" for="refresh-checkbox">Auto Shuffle</label>
+                        </div>
+                    </div>
+
+                    <div class="row error-rate-row">
+                        <div class="col-12">
+                            <label for="error-rate" class="form-label">Error Rate</label>
+                            <input type="range" class="form-range" value="0" id="error-rate">
+                            <div class="error-rate-labels">
+                                <span class="error-rate-0">0%</span>
+                                <span class="error-rate-100">100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row response-delay-row">
+                        <div class="col-12">
+                            <label for="response-delay" class="form-label">Response Delay</label>
+                            <div class="input-group">
+                                <input type="number" placeholder="0" class="form-control response-delay-input"
+                                       id="response-delay"
+                                       aria-label="Response delay"
+                                       aria-describedby="response-delay"
+                                       min="0">
+                                <span class="input-group-text response-delay-text">seconds</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <p class="response-details-header">Response</p>
+                        <table class="table response-details table-borderless">
+                            <tbody style="border-top: none">
+                            <tr>
+                                <th>STATUS</th>
+                                <th>DURATION</th>
+                            </tr>
+                            <tr>
+                                <td id="response-status"></td>
+                                <td id="response-duration"></td>
+                            </tr>
+                            <tr>
+                                <th>HOST</th>
+                                <th>VERSION</th>
+                            </tr>
+                            <tr>
+                                <td id="response-backend-hostname"></td>
+                                <td id="response-backend-version"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+<!--
+    Attribution:
+        Design: Hannah Hearth (http://www.hannahhearth.com)
+        Background: https://www.freepik.com/vectors/floral Floral vector created by starline - www.freepik.com
+        Binoculars logo: Binoculars by Aidan Cooke from NounProject.com
+-->
+</html>

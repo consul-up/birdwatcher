@@ -1,0 +1,15 @@
+https://en.wikipedia.org/api/rest_v1/page/summary/Atlantic_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Cape_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Yellow-crowned_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Black-headed_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Black-faced_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Papyrus_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Black-throated_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Lemon-breasted_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Yellow-fronted_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/White-bellied_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Northern_grosbeak-canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Southern_grosbeak-canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Yellow_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Brimstone_canary
+https://en.wikipedia.org/api/rest_v1/page/summary/Protea_canary

@@ -1,0 +1,688 @@
+[
+  {
+    "type": "standard",
+    "title": "Atlantic canary",
+    "displaytitle": "Atlantic canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q192524",
+    "titles": {
+      "canonical": "Atlantic_canary",
+      "normalized": "Atlantic canary",
+      "display": "Atlantic canary"
+    },
+    "pageid": 79327,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Serinus_canaria_-Parque_Rural_del_Nublo%2C_Gran_Canaria%2C_Spain_-male-8a.jpg/320px-Serinus_canaria_-Parque_Rural_del_Nublo%2C_Gran_Canaria%2C_Spain_-male-8a.jpg",
+      "width": 320,
+      "height": 213
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/89/Serinus_canaria_-Parque_Rural_del_Nublo%2C_Gran_Canaria%2C_Spain_-male-8a.jpg",
+      "width": 2925,
+      "height": 1950
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1055998715",
+    "tid": "5b6904e0-50b3-11ec-b165-9fbb1ab027ed",
+    "timestamp": "2021-11-19T03:02:58Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Atlantic_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Atlantic_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Atlantic_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Atlantic_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Atlantic_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Atlantic_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Atlantic_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Atlantic_canary"
+      }
+    },
+    "extract": "The Atlantic canary, known worldwide simply as the wild canary and also called the island canary, common canary, or canary, is a small passerine bird belonging to the genus Serinus in the finch family, Fringillidae. It is native to the Canary Islands, the Azores, and Madeira. Wild birds are mostly yellow-green, with brownish streaking on the back. The species is common in captivity and a number of colour varieties have been bred.",
+    "extract_html": "<p>The <b>Atlantic canary</b>, known worldwide simply as the <b>wild canary</b> and also called the <b>island canary</b>, <b>common canary</b>, or <b>canary</b>, is a small passerine bird belonging to the genus <i>Serinus</i> in the finch family, Fringillidae. It is native to the Canary Islands, the Azores, and Madeira. Wild birds are mostly yellow-green, with brownish streaking on the back. The species is common in captivity and a number of colour varieties have been bred.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Cape canary",
+    "displaytitle": "Cape canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1061889",
+    "titles": {
+      "canonical": "Cape_canary",
+      "normalized": "Cape canary",
+      "display": "Cape canary"
+    },
+    "pageid": 9016665,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cape_Canary_%28Serinus_canicollis%29_1.jpg/320px-Cape_Canary_%28Serinus_canicollis%29_1.jpg",
+      "width": 320,
+      "height": 256
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Cape_Canary_%28Serinus_canicollis%29_1.jpg",
+      "width": 800,
+      "height": 640
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054979884",
+    "tid": "58259190-59e6-11ec-a814-91a6e3a6636f",
+    "timestamp": "2021-11-13T03:25:13Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Cape_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Cape_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Cape_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Cape_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Cape_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Cape_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Cape_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Cape_canary"
+      }
+    },
+    "extract": "The Cape canary is a small passerine bird in the finch family. It is a resident breeder in southern Africa and has been introduced to Mauritius and Réunion.",
+    "extract_html": "<p>The <b>Cape canary</b> is a small passerine bird in the finch family. It is a resident breeder in southern Africa and has been introduced to Mauritius and Réunion.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Yellow-crowned canary",
+    "displaytitle": "Yellow-crowned canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q5422234",
+    "titles": {
+      "canonical": "Yellow-crowned_canary",
+      "normalized": "Yellow-crowned canary",
+      "display": "Yellow-crowned canary"
+    },
+    "pageid": 9016680,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Yellow-crowned_Canary_-_Mt.Kenya_S4E7761_%2823013953136%29.jpg/320px-Yellow-crowned_Canary_-_Mt.Kenya_S4E7761_%2823013953136%29.jpg",
+      "width": 320,
+      "height": 249
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Yellow-crowned_Canary_-_Mt.Kenya_S4E7761_%2823013953136%29.jpg",
+      "width": 808,
+      "height": 629
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054699643",
+    "tid": "582a2570-59e6-11ec-a368-c988f5a182f6",
+    "timestamp": "2021-11-11T16:29:36Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Yellow-crowned_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Yellow-crowned_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Yellow-crowned_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yellow-crowned_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Yellow-crowned_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Yellow-crowned_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Yellow-crowned_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Yellow-crowned_canary"
+      }
+    },
+    "extract": "The yellow-crowned canary is a small passerine bird in the finch family. It is a resident breeder in eastern Africa. It was formerly considered conspecific with the Cape canary.",
+    "extract_html": "<p>The <b>yellow-crowned canary</b> is a small passerine bird in the finch family. It is a resident breeder in eastern Africa. It was formerly considered conspecific with the Cape canary.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Black-headed canary",
+    "displaytitle": "Black-headed canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1302446",
+    "titles": {
+      "canonical": "Black-headed_canary",
+      "normalized": "Black-headed canary",
+      "display": "Black-headed canary"
+    },
+    "pageid": 12181832,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Serinus_alario_-near_Rooifontein%2C_Northern_Cape%2C_South_Africa_-male-8.jpg/320px-Serinus_alario_-near_Rooifontein%2C_Northern_Cape%2C_South_Africa_-male-8.jpg",
+      "width": 320,
+      "height": 303
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Serinus_alario_-near_Rooifontein%2C_Northern_Cape%2C_South_Africa_-male-8.jpg",
+      "width": 349,
+      "height": 331
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054696083",
+    "tid": "9fc07e00-59e8-11ec-bf07-2f8228bd3848",
+    "timestamp": "2021-11-11T16:03:24Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Black-headed_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Black-headed_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Black-headed_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Black-headed_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Black-headed_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Black-headed_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Black-headed_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Black-headed_canary"
+      }
+    },
+    "extract": "The black-headed canary is a species of finch found in Lesotho, Namibia and South Africa. It is sometimes placed in the genus Alario as Alario alario",
+    "extract_html": "<p>The <b>black-headed canary</b> is a species of finch found in Lesotho, Namibia and South Africa. It is sometimes placed in the genus <i>Alario</i> as <i>Alario alario</i></p>"
+  },
+  {
+    "type": "standard",
+    "title": "Black-faced canary",
+    "displaytitle": "Black-faced canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075802",
+    "titles": {
+      "canonical": "Black-faced_canary",
+      "normalized": "Black-faced canary",
+      "display": "Black-faced canary"
+    },
+    "pageid": 12181852,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Black-faced_Canary_%28Crithagra_capistrata%29_by_Henrik_Gr%C3%B6nvold.jpg/236px-Black-faced_Canary_%28Crithagra_capistrata%29_by_Henrik_Gr%C3%B6nvold.jpg",
+      "width": 236,
+      "height": 320
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/28/Black-faced_Canary_%28Crithagra_capistrata%29_by_Henrik_Gr%C3%B6nvold.jpg",
+      "width": 1240,
+      "height": 1683
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054933277",
+    "tid": "9fa97390-59e8-11ec-bc62-2b6137002abc",
+    "timestamp": "2021-11-12T21:14:08Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Black-faced_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Black-faced_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Black-faced_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Black-faced_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Black-faced_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Black-faced_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Black-faced_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Black-faced_canary"
+      }
+    },
+    "extract": "The black-faced canary is a species of finch in the family Fringillidae.\nIt is found in Angola, Burundi, Republic of the Congo, Democratic Republic of the Congo, Gabon, and Zambia.\nIts natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist shrubland.",
+    "extract_html": "<p>The <b>black-faced canary</b> is a species of finch in the family Fringillidae.\nIt is found in Angola, Burundi, Republic of the Congo, Democratic Republic of the Congo, Gabon, and Zambia.\nIts natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist shrubland.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Papyrus canary",
+    "displaytitle": "Papyrus canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075804",
+    "titles": {
+      "canonical": "Papyrus_canary",
+      "normalized": "Papyrus canary",
+      "display": "Papyrus canary"
+    },
+    "pageid": 12181882,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Papyrus_Canary_-_Uganda_MG_1468_%2823040012745%29.jpg/213px-Papyrus_Canary_-_Uganda_MG_1468_%2823040012745%29.jpg",
+      "width": 213,
+      "height": 320
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/30/Papyrus_Canary_-_Uganda_MG_1468_%2823040012745%29.jpg",
+      "width": 760,
+      "height": 1140
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054990684",
+    "tid": "9f564a80-59e8-11ec-9c97-1fba0c95c81f",
+    "timestamp": "2021-11-13T05:00:57Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Papyrus_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Papyrus_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Papyrus_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Papyrus_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Papyrus_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Papyrus_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Papyrus_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Papyrus_canary"
+      }
+    },
+    "extract": "The papyrus canary, also known as Van Someren's canary, is a species of passerine bird in the finch family Fringillidae.",
+    "extract_html": "<p>The <b>papyrus canary</b>, also known as <b>Van Someren's canary</b>, is a species of passerine bird in the finch family Fringillidae.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Black-throated canary",
+    "displaytitle": "Black-throated canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075809",
+    "titles": {
+      "canonical": "Black-throated_canary",
+      "normalized": "Black-throated canary",
+      "display": "Black-throated canary"
+    },
+    "pageid": 12181841,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Canary_Black-throated_2012_01_15_08_09_00_4016.jpg/320px-Canary_Black-throated_2012_01_15_08_09_00_4016.jpg",
+      "width": 320,
+      "height": 243
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Canary_Black-throated_2012_01_15_08_09_00_4016.jpg",
+      "width": 779,
+      "height": 591
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054957175",
+    "tid": "6d222010-54cb-11ec-a13c-77f351e11848",
+    "timestamp": "2021-11-13T00:13:03Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Black-throated_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Black-throated_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Black-throated_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Black-throated_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Black-throated_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Black-throated_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Black-throated_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Black-throated_canary"
+      }
+    },
+    "extract": "The black-throated canary, also known as the black-throated seedeater, is a species of finch in the family Fringillidae.",
+    "extract_html": "<p>The <b>black-throated canary</b>, also known as the <b>black-throated seedeater</b>, is a species of finch in the family Fringillidae.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Lemon-breasted canary",
+    "displaytitle": "Lemon-breasted canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075820",
+    "titles": {
+      "canonical": "Lemon-breasted_canary",
+      "normalized": "Lemon-breasted canary",
+      "display": "Lemon-breasted canary"
+    },
+    "pageid": 12181856,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Lemon-breasted_canary%2C_Crithagra_citrinipectus%2C_near_Pafuri_in_Kruger_National_Park%2C_South_Africa.jpg/320px-Lemon-breasted_canary%2C_Crithagra_citrinipectus%2C_near_Pafuri_in_Kruger_National_Park%2C_South_Africa.jpg",
+      "width": 320,
+      "height": 314
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Lemon-breasted_canary%2C_Crithagra_citrinipectus%2C_near_Pafuri_in_Kruger_National_Park%2C_South_Africa.jpg",
+      "width": 1837,
+      "height": 1801
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054986928",
+    "tid": "9f896870-59e8-11ec-b26f-1b0605708781",
+    "timestamp": "2021-11-13T04:28:04Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Lemon-breasted_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Lemon-breasted_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Lemon-breasted_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Lemon-breasted_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Lemon-breasted_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Lemon-breasted_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Lemon-breasted_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Lemon-breasted_canary"
+      }
+    },
+    "extract": "The lemon-breasted canary, also known as the lemon-breasted seedeater, is a species of finch in the family Fringillidae. It is found in Malawi, Mozambique, South Africa, Zambia, and Zimbabwe. Its natural habitats are dry savannah, subtropical or tropical dry shrubland, and rural gardens.",
+    "extract_html": "<p>The <b>lemon-breasted canary</b>, also known as the <b>lemon-breasted seedeater</b>, is a species of finch in the family Fringillidae. It is found in Malawi, Mozambique, South Africa, Zambia, and Zimbabwe. Its natural habitats are dry savannah, subtropical or tropical dry shrubland, and rural gardens.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Yellow-fronted canary",
+    "displaytitle": "Yellow-fronted canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075822",
+    "titles": {
+      "canonical": "Yellow-fronted_canary",
+      "normalized": "Yellow-fronted canary",
+      "display": "Yellow-fronted canary"
+    },
+    "pageid": 703022,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Yellow-fronted_canary_%28Crithagra_mozambica_tando%29.jpg/246px-Yellow-fronted_canary_%28Crithagra_mozambica_tando%29.jpg",
+      "width": 246,
+      "height": 320
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Yellow-fronted_canary_%28Crithagra_mozambica_tando%29.jpg",
+      "width": 1586,
+      "height": 2066
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1057203869",
+    "tid": "b24de8a0-54ca-11ec-a69f-f55c0eb9cea8",
+    "timestamp": "2021-11-26T03:57:08Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Yellow-fronted_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Yellow-fronted_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Yellow-fronted_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yellow-fronted_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Yellow-fronted_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Yellow-fronted_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Yellow-fronted_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Yellow-fronted_canary"
+      }
+    },
+    "extract": "The yellow-fronted canary , is a small passerine bird in the finch family. It is known elsewhere and in aviculture as the green singing finch.",
+    "extract_html": "<p>The <b>yellow-fronted canary </b>, is a small passerine bird in the finch family. It is known elsewhere and in aviculture as the <b>green singing finch</b>.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "White-bellied canary",
+    "displaytitle": "White-bellied canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075824",
+    "titles": {
+      "canonical": "White-bellied_canary",
+      "normalized": "White-bellied canary",
+      "display": "White-bellied canary"
+    },
+    "pageid": 12181863,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/White-bellied_Canary_-_Samburu_-_Kenya_S4E5349_%2822621674067%29.jpg/320px-White-bellied_Canary_-_Samburu_-_Kenya_S4E5349_%2822621674067%29.jpg",
+      "width": 320,
+      "height": 213
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/12/White-bellied_Canary_-_Samburu_-_Kenya_S4E5349_%2822621674067%29.jpg",
+      "width": 1140,
+      "height": 760
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054776005",
+    "tid": "9f5ab750-59e8-11ec-b87b-41f4619836eb",
+    "timestamp": "2021-11-12T01:20:48Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/White-bellied_canary",
+        "revisions": "https://en.wikipedia.org/wiki/White-bellied_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/White-bellied_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:White-bellied_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/White-bellied_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/White-bellied_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/White-bellied_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:White-bellied_canary"
+      }
+    },
+    "extract": "The white-bellied canary is a species of finch in the family Fringillidae.\nIt is found in Ethiopia, Kenya, Somalia, South Sudan, Tanzania, and Uganda.\nIts natural habitat is dry savanna.",
+    "extract_html": "<p>The <b>white-bellied canary</b> is a species of finch in the family Fringillidae.\nIt is found in Ethiopia, Kenya, Somalia, South Sudan, Tanzania, and Uganda.\nIts natural habitat is dry savanna.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Northern grosbeak-canary",
+    "displaytitle": "Northern grosbeak-canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075834",
+    "titles": {
+      "canonical": "Northern_grosbeak-canary",
+      "normalized": "Northern grosbeak-canary",
+      "display": "Northern grosbeak-canary"
+    },
+    "pageid": 12181859,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/SerinusKeulemans.jpg/222px-SerinusKeulemans.jpg",
+      "width": 222,
+      "height": 320
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/SerinusKeulemans.jpg",
+      "width": 1882,
+      "height": 2710
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1055451997",
+    "tid": "9f9612a0-59e8-11ec-bcff-251ed5efeb52",
+    "timestamp": "2021-11-15T23:32:49Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Northern_grosbeak-canary",
+        "revisions": "https://en.wikipedia.org/wiki/Northern_grosbeak-canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Northern_grosbeak-canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Northern_grosbeak-canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Northern_grosbeak-canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Northern_grosbeak-canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Northern_grosbeak-canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Northern_grosbeak-canary"
+      }
+    },
+    "extract": "The northern grosbeak-canary or Abyssinian grosbeak canary is a species of passerine bird in the finch family Fringillidae. It is found in Ethiopia, Kenya, and Somalia. Its binomial name commemorates the explorer Arthur Donaldson Smith.",
+    "extract_html": "<p>The <b>northern grosbeak-canary</b> or <b>Abyssinian grosbeak canary</b> is a species of passerine bird in the finch family Fringillidae. It is found in Ethiopia, Kenya, and Somalia. Its binomial name commemorates the explorer Arthur Donaldson Smith.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Southern grosbeak-canary",
+    "displaytitle": "Southern grosbeak-canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075835",
+    "titles": {
+      "canonical": "Southern_grosbeak-canary",
+      "normalized": "Southern grosbeak-canary",
+      "display": "Southern grosbeak-canary"
+    },
+    "pageid": 12181845,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Southern_Grosbeak-Canary_%28Crithagra_buchanani%29.jpg/310px-Southern_Grosbeak-Canary_%28Crithagra_buchanani%29.jpg",
+      "width": 310,
+      "height": 320
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Southern_Grosbeak-Canary_%28Crithagra_buchanani%29.jpg",
+      "width": 909,
+      "height": 937
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1055663119",
+    "tid": "9f826390-59e8-11ec-84ae-6331b9671058",
+    "timestamp": "2021-11-17T03:33:06Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Southern_grosbeak-canary",
+        "revisions": "https://en.wikipedia.org/wiki/Southern_grosbeak-canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Southern_grosbeak-canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Southern_grosbeak-canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Southern_grosbeak-canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Southern_grosbeak-canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Southern_grosbeak-canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Southern_grosbeak-canary"
+      }
+    },
+    "extract": "The southern grosbeak-canary, also known as Kenya grosbeak-canary is a species of finch in the family Fringillidae. It is found in Kenya and Tanzania. Its natural habitat is subtropical or tropical dry shrubland.",
+    "extract_html": "<p>The <b>southern grosbeak-canary</b>, also known as <b>Kenya grosbeak-canary</b> is a species of finch in the family Fringillidae. It is found in Kenya and Tanzania. Its natural habitat is subtropical or tropical dry shrubland.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Yellow canary",
+    "displaytitle": "Yellow canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075837",
+    "titles": {
+      "canonical": "Yellow_canary",
+      "normalized": "Yellow canary",
+      "display": "Yellow canary"
+    },
+    "pageid": 9050662,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Serinus_flaviventris_-Great_Karoo%2C_Northern_Cape%2C_South_Africa_-adult_male-8.jpg/320px-Serinus_flaviventris_-Great_Karoo%2C_Northern_Cape%2C_South_Africa_-adult_male-8.jpg",
+      "width": 320,
+      "height": 251
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Serinus_flaviventris_-Great_Karoo%2C_Northern_Cape%2C_South_Africa_-adult_male-8.jpg",
+      "width": 457,
+      "height": 359
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054824384",
+    "tid": "779fe440-576a-11ec-bc62-2b6137002abc",
+    "timestamp": "2021-11-12T08:38:39Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Yellow_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Yellow_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Yellow_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yellow_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Yellow_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Yellow_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Yellow_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Yellow_canary"
+      }
+    },
+    "extract": "The yellow canary  is a small passerine bird in the finch family. It is a resident breeder in much of the western and central regions of southern Africa and has been introduced to Ascension and St Helena islands.",
+    "extract_html": "<p>The <b>yellow canary </b> is a small passerine bird in the finch family. It is a resident breeder in much of the western and central regions of southern Africa and has been introduced to Ascension and St Helena islands.</p>"
+  },
+  {
+    "type": "standard",
+    "title": "Brimstone canary",
+    "displaytitle": "Brimstone canary",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q27075838",
+    "titles": {
+      "canonical": "Brimstone_canary",
+      "normalized": "Brimstone canary",
+      "display": "Brimstone canary"
+    },
+    "pageid": 10906183,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Brimstone_Canary_-_Uganda_H8O4066_%2822647799309%29.jpg/213px-Brimstone_Canary_-_Uganda_H8O4066_%2822647799309%29.jpg",
+      "width": 213,
+      "height": 320
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Brimstone_Canary_-_Uganda_H8O4066_%2822647799309%29.jpg",
+      "width": 760,
+      "height": 1140
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1054756282",
+    "tid": "a35aceb0-576a-11ec-a314-7bacb47b5e0d",
+    "timestamp": "2021-11-11T22:46:58Z",
+    "description": "Species of bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Brimstone_canary",
+        "revisions": "https://en.wikipedia.org/wiki/Brimstone_canary?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Brimstone_canary?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Brimstone_canary"
+      },
+      "mobile": {
+        "page": "https://en.m.wikipedia.org/wiki/Brimstone_canary",
+        "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Brimstone_canary",
+        "edit": "https://en.m.wikipedia.org/wiki/Brimstone_canary?action=edit",
+        "talk": "https://en.m.wikipedia.org/wiki/Talk:Brimstone_canary"
+      }
+    },
+    "extract": "The brimstone canary or bully canary is a small passerine bird in the finch family. It is a resident breeder in central and southern Africa.",
+    "extract_html": "<p>The <b>brimstone canary</b> or <b>bully canary</b> is a small passerine bird in the finch family. It is a resident breeder in central and southern Africa.</p>"
+  }
+]
