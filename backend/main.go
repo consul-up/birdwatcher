@@ -3,15 +3,17 @@ package main
 import (
 	_ "embed"
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/opentracing/opentracing-go"
 	"log"
 	"math/rand"
+	"net/http"
 	"os"
 	"strconv"
 	"strings"
 	"sync/atomic"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/opentracing/opentracing-go"
 )
 
 const (
@@ -175,7 +177,9 @@ func main() {
 
 	// Start the server.
 	logf("Starting server listen_addr=%q", bindAddr)
-	r.Run(bindAddr)
+	if err := r.Run(bindAddr); err != nil && err != http.ErrServerClosed {
+		logf("Error: %s", err)
+	}
 }
 
 // logF is a helper function that operates like log.Printf but always
