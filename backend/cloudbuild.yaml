@@ -1,0 +1,52 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/birdwatcher-backend:$SHORT_SHA'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/birdwatcher-backend:latest'
+      - '.'
+    dir: 'backend'
+
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/birdwatcher-backend:$SHORT_SHA'
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/birdwatcher-backend:latest'
+
+  # Deploy container image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'birdwatcher-backend'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/birdwatcher-backend:$SHORT_SHA'
+      - '--region'
+      - '${_REGION}'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--port'
+      - '7000'
+      - '--set-env-vars'
+      - 'VERSION=${_VERSION}'
+
+images:
+  - 'gcr.io/$PROJECT_ID/birdwatcher-backend:$SHORT_SHA'
+  - 'gcr.io/$PROJECT_ID/birdwatcher-backend:latest'
+
+substitutions:
+  _REGION: us-central1
+  _VERSION: v1
+
+options:
+  logging: CLOUD_LOGGING_ONLY
